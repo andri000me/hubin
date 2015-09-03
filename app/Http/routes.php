@@ -11,4 +11,6 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'Welcome@index');
+
+// Route::get('/register', 'action');
