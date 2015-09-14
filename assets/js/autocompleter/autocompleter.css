@@ -1,0 +1,63 @@
+.autocompleter {
+    padding: 6px 12px;
+    display: none;
+	background:#fff;
+	border:1px solid #ccc;
+    z-index:100;
+}
+
+.autocompleter-show {
+    display: block;
+}
+
+.autocompleter,
+.autocompleter-hint {
+    position: absolute;
+}
+
+.autocompleter-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.autocompleter-item {
+    cursor: pointer;
+    border-bottom:1px solid #ccc;
+}
+
+.autocompleter-item img{
+    height:30px;
+}
+.autocompleter-item img.foto{
+    width:30px;
+}
+
+.autocompleter-item:hover {
+    background:rgba(0,0,0,0.1);
+}
+
+.autocompleter-item-selected {
+    /* Selected State */
+}
+
+.autocompleter-item strong {
+    /* Highlight Matches */
+}
+
+.autocompleter-hint {
+    width: 100%;
+    display: none;
+
+    /** Need absolute position over input text */
+}
+
+.autocompleter-hint-show {
+    display: block;
+}
+
+.autocompleter-hint span {
+    color: transparent;
+}

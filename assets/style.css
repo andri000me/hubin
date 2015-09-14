@@ -1,0 +1,148 @@
+/*Import CSS*/
+@import "css/bootstrap.min.css";
+@import "css/style.min.css";
+@import "css/parallax-slider.css";
+@import "css/colorbox/colorbox.css";
+@import "css/bootstrap-wysihtml5.css";
+@import "css/news-ticker.css";
+@import "js/autocompleter/autocompleter.css";
+/*Fast*/
+textarea{
+  height:74px;
+}
+ul{
+  padding-left:10px;
+}
+.label.a{
+  color:#f9f9f9;
+  font-weight:bold;
+}
+/*Ul LI*/
+/*ul{list-style:none outside}
+ul,ol{margin:0;padding:0}*/
+/*Line SMK*/
+.line-smk{
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:100;
+  height:5px;
+}
+.line-smk div{
+  height:40px;
+  width:25%;
+  float:left;
+  text-align:center;
+  margin-top:-35px;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+  -o-transition:0.5s;
+}
+.line-smk div:hover{
+  cursor: pointer;
+  margin-top:0px;
+  box-shadow:0px 0px 5px #000;
+}
+.line-smk div h2{
+  color:#efefef;
+}
+.line-surta{background:#0e7025;}
+.line-rpl{background:#3598db;}
+.line-geota{background:#f39c11;}
+.line-garmen{background:#8c47a4;}
+
+/*Sampul perusahaan*/
+.sampul-perusahaan{
+  position:relative;
+  width:100%;
+  height:300px;
+  background-size:100% 100%;
+  box-shadow:0px 5px 6px -6px;
+  text-align:center;
+  margin-bottom:20px;
+}
+.logo-perusahaan{
+  border-radius:4px;
+  max-height:120px;
+  padding:5px;
+  background:#f9f9f9;
+}
+.nama-perusahaan{
+  color:#f9f9f9;
+  font-weight:bold;
+  font-size:16px;
+  margin:10px 0px;
+  text-outline: 2px 2px #ff0000;
+  text-shadow:0px 0px 2px #000;
+}
+/*Table perusahaan*/
+.table-perusahaan td{
+  padding:6px 0px;
+}
+.table-perusahaan td:nth-child(1){
+  vertical-align:top;
+  font-weight:bold;
+}
+/*Table Detail*/
+.table-detail td{
+  padding:6px 0px;
+}
+.table-detail td:nth-child(1){
+  vertical-align:top;
+  font-weight:bold;
+}
+/*news ticker*/
+.mutiara-ticker{
+  height:165px !important;
+}
+.news-ticker .pagination li{
+  padding:0px;
+}
+/*Slider*/
+.slider{
+  box-shadow:10px 0px 12px -12px,-10px 0px 12px -12px;
+}
+/*Table filter*/
+.tbl-filter{
+
+}
+/*Prakerin*/
+.form-group.input_siswa label{
+  display:inline-block;
+  width:49%;
+}
+.form-group.input_siswa table td{
+  padding:7px 10px;
+}
+.table-cell{
+  display:table-cell;
+}
+/*Informasi Home*/
+.content_informasi{
+  padding:3px 15px 0px;
+  margin:0 0 15px;
+  border-left:5px solid #eee;
+}
+.content_informasi p{
+  font-size:15px;
+}
+.paging li{
+  float:left;
+}
+.paging a{
+  padding: 3px 4px 3px 8px;
+  border: 1px solid #eee;
+  display: inline-block;
+  background: white;
+  margin-right: 1px;
+  box-shadow: 0 1px 1px 0 rgba(180,180,180,0.1);
+}
+/*Notifikasi*/
+.notification{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+}
+.notification .label{
+  font-size: 80%;
+}
