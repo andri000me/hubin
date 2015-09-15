@@ -49,8 +49,8 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'hubin';
-$db['default']['password'] = 'hub1n12321';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '4d1s12321';
 $db['default']['database'] = 'hubin';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
